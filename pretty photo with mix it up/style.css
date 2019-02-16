@@ -1,0 +1,102 @@
+*{margin:0;padding:0;}
+.main_menu{text-align: center;
+background: #9BF8FF;}
+.manu{margin-top: 20px;
+margin-bottom: 20px;
+font-size: 20px;}
+.manu ul{margin: 0;
+padding: 0;
+list-style: none;position:relative;}
+.manu ul li{display:inline-block;}
+.manu ul li a{text-decoration: none;
+padding: 10px;
+font-weight: bold;
+text-transform: uppercase;
+color:#008A00;
+display:block;
+border-radius:5px 5px 5px 5px;}
+.manu ul li a:hover{color:black;background:#553C99;}
+
+<!----------->
+#m{background:red;}
+.manu ul li ul{position: absolute;
+top: 48px;
+margin-left: -4444449px;
+width: 180px;
+z-index: 6;
+height: 272px;
+}
+.manu ul li ul{}
+.manu ul li:hover ul{margin-left: 0px;
+background: none repeat scroll 0% 0% #8BCBE4;
+opacity: 0.6;
+border-radius: 5px 5px 29px 25px;}
+.manu ul li ul li{float:none;}
+.manu ul li  ul li a{}
+
+
+<!----------->
+.slider{}
+.slider img{width:100%;}
+
+#minslider .item{ display: block;
+width: 100%;
+height: auto;}
+
+.owl-buttons .owl-prev{
+background:none !important}
+.owl-buttons .owl-prev .fa{color: #FFF;
+font-weight: bold;
+font-size: 83px;
+position: absolute;
+top: 216px;
+left: 5%;}
+.owl-buttons .owl-next{
+	background:none !important}
+.owl-buttons .owl-next .fa{color: #FFF;
+font-weight: bold;
+font-size: 83px;
+position: absolute;
+top: 216px;
+right: 5%;}
+
+.portfolio{padding-bottom:40px;background:#A696CF;margin-top: -32px;}
+.portfolio_menu ul{margin:0;padding:0;list-style:none;text-align:center;}
+.portfolio_menu ul li{display:inline-block;padding:10px;margin-top:20px;margin-bottom:10px;font-size:18px;text-transform:uppercase;font-weight:bold;}
+.portfolio ul li:hover{color:#fff;background:#054D8C;cursor:pointer;}
+.single_portfolio{
+}
+.single_portfolio img{margin-top:18px;}
+
+.portfolio_content .mix{
+	display: none;
+}
+.single_portfolio{position:relative;}
+.overlay{height: 92%;
+width: 100%;
+position: absolute;
+background: none repeat scroll 0% 0% #000;
+margin-top: 17px;
+z-index: 6;
+opacity: 0.7;
+z-index:-9;
+
+-webkit-transition: all .7s ease-in-out;
+-moz-transition: all .7s ease-in-out;
+-o-transition: all .7s ease-in-out;
+-ms-transition: all .7s ease-in-out;
+transition: all .7s ease-in-out;}
+
+.single_portfolio:hover .overlay{z-index:9;}
+
+.overlay .fa{text-align: center;
+margin-left: 117px;
+margin-top: 87px;
+font-size: 34px;}
+
+
+
+
+
+
+{}

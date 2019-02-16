@@ -1,0 +1,126 @@
+/* GENERAL SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease
+}
+section {
+  background: #ebebeb;
+  width: 100%;
+  height: 300px;
+}
+.title{
+  margin-top: 80px;
+}
+
+/* COLOR SWITCHER  */
+.themes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+.themes .colors {
+    float: left;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    -moz-border-radius: 0 0 10px 0;
+    -webkit-border-radius: 0 0 10px 0;
+    border-radius: 0 0 10px 0;
+    margin-left: -300px;
+}
+.themes .colors.active {margin-left: 0;}
+.themes .colors h3 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 7px
+}
+.themes-btn{
+  float: right;
+}
+.themes ul li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    -moz-border-radius: 7.8px;
+    -webkit-border-radius: 7.8px;
+    border-radius: 7.8px;
+    margin-right: 2px
+}
+.themes ul li:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: 0.8
+}
+.themes ul.theme-colors li:nth-child(1){
+    background: #000;
+    color: #000
+}
+.themes ul.theme-colors li:nth-child(2){
+    background: #fff;
+    color: #fff
+}
+.themes ul.theme-colors li:nth-child(3){
+    background: #0084d6;
+    color: #0084d6
+}
+.themes ul.theme-colors li:nth-child(4){
+    background: #f44336;
+    color: #f44336
+}
+.themes ul.theme-colors li:nth-child(5){
+    background: #7b1fa2;
+    color: #7b1fa2
+}
+.themes ul.theme-colors li:nth-child(6){
+    background: #00acc1;
+    color: #00acc1
+}
+
+.themes ul.theme-colors li:nth-child(7){
+    background: #43a047;
+    color: #43a047
+}
+
+.themes ul.theme-colors li:nth-child(8){
+    background: #f57c00;
+    color: #f57c00
+}
+
+.themes ul.theme-colors li:nth-child(9) {
+    background: #455a64;
+    color: #455a64
+}
+
+
+/* LIGHT / DARK SWITCHER */
+.btn-group{
+  margin-top: 30px;
+  
+}
+.btn-group .btn{
+  width: 100px;
+  border: 0;
+}
+.selected-btn,
+.selected-btn:hover{
+  font-weight: 100;
+  color: #fff;
+  background: #444;
+}
+
+/* TOGGLE CLASSES */
+.dark-title{
+  color: #fff;
+}
+.dark-bg{
+  background: #333;
+}
